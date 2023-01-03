@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>omar_khallouki </title>
+    <link rel="stylesheet" href="site.css">
+    <style>
+      p a{
+        text-decoration: underline;
+      }
+      p a:hover{
+        color: green;
+      }
+      p a:link{
+        color: black;
+      }
+      #clear{  
+    width: 270px;  
+    border: 3px solid gray;  
+    border-radius: 15px;  
+    padding: 10px;  
+    background-color: red;  
+}
+ .y1{
+  width: 300px;  
+height: 690px;  
+margin: auto;  
+border: 3px solid skyblue;  
+border-radius: 5px;  
+padding: 30px;  
+text-align: center;
+ }
+.w1 .y1 input 
+{  
+  text-align: center;
+width: 20px;  
+/*background-color: green;  */
+color: black;  
+border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 27px;  
+    margin: 5px;  
+    font-size: 20px;  
+    
+}  
+.w1 .y1 input:hover{
+  background-color: yellow;
+}
+#calc{  
+width: 233px;  
+border: 5px solid black;  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto;  
+}  
+.abc form input{
+  color: black;  
+border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 15px;  
+    margin: 5px;  
+    font-size: 10px;
+}
+#abc{
+  width: 233px;  
+border: 5px solid black;  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto;  
+}
+
+    </style>
+</head>
+<body>
+  <header>
+     <div class="w1">
+          <h1>Learn Javascript  </h1>
+          <nav>
+          <ul>
+            <li><a href="#main-img">ACCEUIL</a></li>
+            <li><a href="#steps">WHY JAVASCRIPT ?</a></li>
+            <li><a href="#exemples">EXEMPLES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            
+          </ul>
+        </nav>
+     </div>
+  </header>
+
+
+
+
+  <section id="main-img">
+
+    <div class="w1">
+      
+
+    </div>
+  </section>
+
+
+  <section id="steps">
+
+    <div class="w1">
+      
+        <h4 style="font-size: 30px; list-style: none; margin-top: 25px; color: darkgreen;">WHY JAVASCRIPT ?</h4>
+        <p style=" font-size: 20px; margin-top: 25px;"> Il est aujourd’hui le langage de programmation le plus polyvalent qui permet à la fois de développer des <span style="color: red">sites web</span> des <span style="color: red">serveurs</span> ,des  <span style="color: red">application mobile</span> et des <span style="color: red;">mathématiques avancées</span>. <br> <br>  De nombreuses études annuelles sur des millions de développeurs démontrent qu’il s’agit du langage le plus utilisé au monde professionnellement entre <span style="color: red;"> 68%</span> et <span style="color: red;">73%</span>  suivant les études annuelles principales.  <br> <br> C’est le langage avec le plus de librairies disponibles comme <span style="color: red">JQuerry </span> qui est est une bibliothèque JavaScript libre et multi-plateforme créée pour
+          faciliter la programmation en javascript. JQuery est facile à maîtriser et aussi il y'a <span style="color: red;"> Ajax </span>qui est un ensemble de technologies qui permettent la mise à jour du contenu d’une page Web d’une manière
+          rapide et sans chargement complet de celle ci. <br> <br> Selon <span style="color: red;">HackerRank</span> plus de <span style="color: red;">53%</span>  des offres mondiales pour des développeurs professionnels ont comme prérequis la connaissance du langage JavaScript .
+           </p>
+           <img src="img1.png" alt="">
+           <p style="text-align: center; margin-top: 10px;">Etude Hackerrank de 2019</p>
+           <p></p> <br> 
+           <p style="font-size: 20px; margin-top: 25px;">Avec un nombre croissant d’entreprises et d’organisations passant au numérique, il y a aussi une augmentation non-négligeable de la demande pour les développeurs qui connaissent les langages de programmation les plus répandus. Comme je l’ai déjà souligné, le JavaScript fait partie de ces langages.</p> <br> 
+           <p style="font-size: 20px; margin-top: 25px">En réalité, il y a une pénurie de développeurs JavaScript sur le marché, alors que selon un rapport publié par le site <a href="https://devskiller.com/technical-hiring-skills-report-2019/#Two" target="_blank">Devskiller</a> <span style="color: red;">70%</span>  des entreprises souhaitent embaucher un développeur avec ces compétences. Il devient clair qu’avoir des connaissances en JS est devenues une compétence très recherchée par de nombreuses entreprises.</p>
+            <br> <br>
+
+    </div>
+
+  </section>
+
+
+  <section id="exemples">
+    <div class="w1">
+      <h4 style="font-size: 30px; list-style: none; margin-top: 25px; color: darkgreen;">WHAT WE CAN DO WITH JAVASCRIPT ?</h4> <br>
+             <ol style="margin-left: 30px;" >
+              <li style=" color: blue;font-size: 20px; margin-top: 25px"> Create a calculator : </li>
+             </ol>
+             <div class="y1">
+             <form name='FF'>
+              <input id="calc" type="text" name='CC'><br>
+              <input type="button" value="1  " onClick="document.forms['FF'].elements['CC'].value+=1">
+              <input type="button" value="2" onClick="document.forms['FF'].elements['CC'].value+=2">
+              <input type="button" value="3" onClick="document.forms['FF'].elements['CC'].value+=3">
+              <input type="button" value="+" onClick="document.forms['FF'].elements['CC'].value+='+'">
+              <br> <br>
+              <input type="button" value="4" onClick="document.forms['FF'].elements['CC'].value+=4">
+              <input type="button" value="5" onClick="document.forms['FF'].elements['CC'].value+=5">
+              <input type="button" value="6" onClick="document.forms['FF'].elements['CC'].value+=6">
+              <input type="button" value="-" onClick="document.forms['FF'].elements['CC'].value+='-'">
+              <br> <br>
+              <input type="button" value="7" onClick="document.forms['FF'].elements['CC'].value+=7">
+              <input type="button" value="8" onClick="document.forms['FF'].elements['CC'].value+=8">
+              <input type="button" value="9" onClick="document.forms['FF'].elements['CC'].value+=9">
+              <input type="button" value="x" onClick="document.forms['FF'].elements['CC'].value+='*'">
+              <br> <br>
+              <input type="button" value="0" onClick="document.forms['FF'].elements['CC'].value+=0">
+              <input type="button" value="." onClick="document.forms['FF'].elements['CC'].value+='.'">
+              <input type="button" value="/" onClick="document.forms['FF'].elements['CC'].value+='/'">
+              <input type="button" value="="  	onClick="document.forms['FF'].elements['CC'].value=eval(document.forms['FF'].elements['CC'].value)"><br>
+              <input type="button" value="sin" onClick="
+              document.forms['FF'].elements['CC'].value=Math.sin(eval(document.forms['FF'].elements['CC'].value));
+              ">
+              <input id="clear" type="button" value="Clear" onClick="document.forms['FF'].elements['CC'].value=''">
+              <br>
+              
+              </form>
+            </div> <br>
+            <ol style="margin-left: 30px;" >
+              <li style=" color: blue;font-size: 20px; margin-top: 25px ; list-style: none;"> 2.Resoudre les équations du deuxiéme degré. </li>
+             </ol> <br> <br>
+             <script language="javascript">
+              function Resoudre(){
+              var a=document.getElementById('C1').value;
+              var b=document.getElementById('C2').value;
+              var c=document.getElementById('C3').value;
+              var res;
+              var Delta=b*b-4*a*c;
+              if(a!=0){
+                if(Delta>0){
+                x1=(-b-Math.sqrt(Delta))/(2*a);
+                x2=(-b+Math.sqrt(Delta))/(2*a);
+                Sol="Deux solutions : "+x1+" et "+x2;
+                 res=Sol;
+                 document.getElementById('abc').value=res
+                 }
+              
+                else{
+                  if(Delta==0){Sol="Solution double :"+(-b/(2*a));}
+                  else {Sol="Pas de Solutions réelles";
+                  res=Sol;
+                 document.getElementById('abc').value=res;   }
+                }
+              
+                }
+              else{if(b!=0){Sol='solution unique : '+(-c/b);
+              res=Sol;
+                 document.getElementById('abc').value=res;   
+            }
+                else{Sol='pas de solution ou infinité de sol'
+                
+                ;
+                res=Sol;
+                 document.getElementById('abc').value=res;   
+              }
+                }
+              document.getElementById('abc').innerHTML=Sol
+              
+              ;
+              res=Sol;
+                 document.getElementById('abc').value=res;   
+              }
+              </script>
+              <div class="abc">
+              <form>
+              <input type="text" size="4" id="C1">X<sup>2</sup>+
+              <input type="text" size="4" id="C2">X+
+              <input type="text" size="4" id="C3">=0 <br> <br>
+              <input type="button" value="Résoudre" onClick="Resoudre()"><br>
+              <input id="abc" type="text" ><br>
+              
+              </form>
+              <div> <br>
+                <ol style="margin-left: 30px;" >
+                  <li style=" color: blue;font-size: 20px; margin-top: 25px ; list-style: none;"> 3.Faire défiler des images  </li>
+                 </ol> <br> <br>
+                 <script type="text/javascript">
+                  var i=0;
+                  var T=['js7.jpg','js6n.jpg','j4n.jpg','j3n.png'];
+                  
+                  </script> 
+                  <img src='js7.jpg' >
+                  <form>
+                  <input class="f9" type="button" value="<=="
+                  onClick="
+                   i--; if(i==-1) i=3; document.images[1].src=T[i]
+                  ">
+                  <input class="f9" type="button" value="==>"
+                  onClick="
+                   i++; if(i==4) i=0; document.images[1].src=T[i]
+                  ">
+                  </form>
+      
+
+
+
+    </div>
+
+  </section>
+
+
+
+<section style="background-color: #444;" id="contact">
+   <div class="w1">
+       <h3>CONTACTEZ-MOI</h3>
+       <form>
+        <label for="name">Nom:</label>
+        <input type="text" id="name" placeholder="Votre nom ">
+        <label for="mail">Email:</label>
+        <input type="text" id="mail" placeholder="Votre email ">
+        <input class="but3" type="submit" value="OK">
+       </form>
+
+   </div>
+</section>
+
+
+
+<footer>
+
+</footer>
+
+
+
+</body>
+</html>
